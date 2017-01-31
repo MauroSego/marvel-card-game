@@ -9,6 +9,11 @@ body{
   border: 5px solid gray;
   border-radius: .5em;
 }
+.Card-description{
+  background: white;
+  padding: .5em;
+  font-size: 12px;
+}
 .Card-image{
   width: 100%;
 
