@@ -6,9 +6,13 @@ html(lang="es")
     link(rel="stylesheet", href="./public/css/app.css")
   body
     section(class="Layout")
-      section(class="Layout-antagonist") antagonist
+      section(class="Layout-antagonist") 
+        each card in [1, 2, 3, 4, 5]
+          include ./card/template.jade
       section(class="Layout-main")
         .Layout-status status 
         .Layout-battle batle
         .Layout-phases phases
-      section(class="Layout-player") player
+      section(class="Layout-player") 
+        each card in [1, 2, 3, 4, 5]
+            include ./card/template.jade
