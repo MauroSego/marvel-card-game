@@ -1,0 +1,9 @@
+{
+  "name": "Marvel-card-game",
+  "description": "Otro proyecto del curso de js y jquery",
+  "version": "0.1.0",
+  "dependencies": {
+    "jade": "^1.11.0",
+    "stylus": "^0.54.5"
+  }
+}
