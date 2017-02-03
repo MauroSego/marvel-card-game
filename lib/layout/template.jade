@@ -1,0 +1,17 @@
+section(class="Layout")
+  section(class="Layout-antagonist") 
+    each card in [1, 2, 3, 4, 5]
+      include ../card/template.jade
+  section(class="Layout-main")
+    .Layout-status
+      each name in ["Mauro", "Oponente"]
+        include ../status/template.jade
+    
+    .Layout-battle
+        include ../battle/template.jade
+    .Layout-phases
+        - text = "Un ataque muy poderoso"
+        include ../phases/template.jade
+  section(class="Layout-player") 
+    each card in [1, 2, 3, 4, 5]
+        include ../card/template.jade

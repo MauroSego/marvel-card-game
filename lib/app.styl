@@ -1,4 +1,9 @@
 @import"./card/styles.styl"
+@import"./battle/styles.styl"
+@import"./layout/styles.styl"
+@import"./phases/styles.styl"
+@import"./status/styles.styl"
+
 
 color-borde(color = red)
   border 1px solid color
@@ -9,34 +14,9 @@ body
   margin 0
   font-size 16px
   
-.Layout
-  display flex
-  padding .5em
-  margin .5em
-  color-borde(brown)
-  flex-direction column
-  min-height 100vh
-  justify-content space-between
-  > section
-    margin .5em
-  &-main 
-    display flex
-    justify-content space-between
-  &-status
-    color-borde(green)
-    width 200px
-  &-battle
-    color-borde(orange)
-    flex 1
-  &-phases
-    color-borde(purple)
-    width 200px
-  &-antagonist
-    color-borde(aquamarine)
-    display flex
-    justify-content space-between
-  &-player
-    color-borde(gray)
-    display flex
-    justify-content space-between
+
+
+
     
+
+

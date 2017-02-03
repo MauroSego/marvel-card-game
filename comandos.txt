@@ -6,7 +6,7 @@ stylus app.styl -c ------> comprimir archivo
 
 jade index.jade -----> compilar jade
 
-stylus -w -c -o ../public/css/ app.styl --> exportar stylus a otra carpeta
+stylus -u nib -w -c -o ../public/css/ app.styl --> exportar stylus a otra carpeta
 
 jade -o ../ -w -P index.jade ----> exportacion y watch de jade 
 
