@@ -6,5 +6,10 @@
     "jade": "^1.11.0",
     "nib": "^1.1.2",
     "stylus": "^0.54.5"
+  },
+  "scripts": {
+  	"jade": "jade --watch --pretty lib/*.jade --out .",
+  	"stylus": "stylus --use nib --compress --watch lib/app.styl --out public/css",
+  	"serve": "http-server ."
   }
 }
